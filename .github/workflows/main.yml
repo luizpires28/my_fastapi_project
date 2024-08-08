@@ -38,7 +38,7 @@ jobs:
  
       - name: Update deployment.yaml
         run: |
-          sed -i 's|image:.*|image: '${{secrets.DOCKER_NAME}}/fast_api_latest:${{github.run_number}}'|' deployment.yaml
+          sed -i '/image: luizfelipe28/s|image:.*|image: '${{secrets.DOCKER_NAME}}/fast_api:${{github.run_number}}'|' deployment.yaml
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
