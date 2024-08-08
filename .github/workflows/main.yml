@@ -45,6 +45,6 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add deployment.yaml
           git commit -m "Update image tag to ${{secrets.DOCKER_NAME}}/fast_api:${{github.run_number}}"
-          git push origin master
+          git push origin main
          
     
