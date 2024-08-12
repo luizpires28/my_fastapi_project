@@ -59,20 +59,20 @@ docker-compose up
    ```bash
    minikube start
 
-2. **Aplique as configurações Kubernetes:**
+2. **Aplique as configurações Kubernetes:
 
    ```bash
    kubectl apply -f all-resources.yml
 
-3. **Acesse o serviço FastAPI através do IP do Minikube. Exemplo de acesso:**
+3. **Acesse o serviço FastAPI através do IP do Minikube. Exemplo de acesso:
 
    ```bash
    minikube service nome-do-serviço --url
 
 ## Endpoints Disponíveis
 
-- **POST /pessoa**: Adiciona uma nova pessoa ao banco de dados.
-- **GET /lista**: Retorna uma lista de todas as pessoas cadastradas.
+- **POST /pessoa: Adiciona uma nova pessoa ao banco de dados.
+- **GET /lista: Retorna uma lista de todas as pessoas cadastradas.
 
 ### Exemplo de requisição para adicionar uma pessoa:
 
