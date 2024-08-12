@@ -50,7 +50,6 @@ Para rodar este projeto, você precisará ter instalado:
 
 Para rodar a aplicação com Docker, basta utilizar o comando:
 
-    ```bash
     docker-compose up
 
 ### Com Minikube (Kubernetes)
@@ -60,12 +59,12 @@ Para rodar a aplicação com Docker, basta utilizar o comando:
    ```bash
    minikube start
 
-2. **Aplique as configurações Kubernetes:
+3. **Aplique as configurações Kubernetes:
 
    ```bash
    kubectl apply -f all-resources.yml
 
-3. **Acesse o serviço FastAPI através do IP do Minikube. Exemplo de acesso:
+4. **Acesse o serviço FastAPI através do IP do Minikube. Exemplo de acesso:
 
    ```bash
    minikube service nome-do-serviço --url
