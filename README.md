@@ -78,10 +78,12 @@ Para rodar a aplicação com Docker, basta utilizar o comando:
 ### Exemplo de requisição para adicionar uma pessoa:
 
     ```json
+~~~python
 {
   "nome": "João",
   "idade": 30
 }
+~~~~
 
 ## Deploy Contínuo com Argo CD
 
