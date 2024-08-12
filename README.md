@@ -76,8 +76,6 @@ Para rodar a aplicação com Docker, basta utilizar o comando:
 - **GET /lista: Retorna uma lista de todas as pessoas cadastradas.
 
 ### Exemplo de requisição para adicionar uma pessoa:
-
-    ```json
 ~~~python
 {
   "nome": "João",
