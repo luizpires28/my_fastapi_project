@@ -38,10 +38,11 @@ Para rodar este projeto, você precisará ter instalado:
    docker-compose up --build
 
 
-    3. Configuração do Banco de Dados:
-O projeto utiliza PostgreSQL como banco de dados, e a URL de conexão configurada é: plaintext
-postgresql://root:1234@db:5432/teste
-Certifique-se de que o banco de dados está rodando corretamente dentro do container.
+3. Configuração do Banco de Dados:
+   ```bash   
+   O projeto utiliza PostgreSQL como banco de dados, e a URL de conexão configurada é: plaintext
+   postgresql://root:1234@db:5432/teste
+   Certifique-se de que o banco de dados está rodando corretamente dentro do container.
 
 ## Rodando a Aplicação
 
