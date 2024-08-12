@@ -50,8 +50,8 @@ Para rodar este projeto, você precisará ter instalado:
 
 Para rodar a aplicação com Docker, basta utilizar o comando:
 
-```bash
-docker-compose up
+    ```bash
+    docker-compose up
 
 ### Com Minikube (Kubernetes)
 
@@ -77,7 +77,7 @@ docker-compose up
 
 ### Exemplo de requisição para adicionar uma pessoa:
 
-```json
+    ```json
 {
   "nome": "João",
   "idade": 30
