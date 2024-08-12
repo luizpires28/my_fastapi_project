@@ -1,6 +1,6 @@
-# api fastapi
+    FastAPI Project
 
-api simples de faastapi que cadastra pessoa e idade, foi desenvolvido com o objetivo de criar uma API para gerenciamento de cadastros de pessoas. A aplicação foi conteinerizada usando Docker e também pode ser executada em um ambiente Kubernetes, utilizando Minikube para testes locais. Além disso, a integração com o banco de dados PostgreSQL foi feita através do SQLAlchemy.
+Este projeto simples de faastapi cadastra pessoa e idade, foi desenvolvido com o objetivo de criar uma API para gerenciamento de cadastros de pessoas. A aplicação foi conteinerizada usando Docker e também pode ser executada em um ambiente Kubernetes, utilizando Minikube para testes locais. Além disso, a integração com o banco de dados PostgreSQL foi feita através do SQLAlchemy.
 
     Estrutura do Projeto
     O projeto está organizado da seguinte forma:
